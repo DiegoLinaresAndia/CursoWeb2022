@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: bisque;
+}
+.contenedor{
+    background-color: white;
+    margin: auto;
+}
+.fuente1{
+    font-family: 'Lobster', cursive;
+}
+.fuente2{
+    font-style: italic;
+}
+.fuente3{
+    font-style: oblique;
+}
+.fuente4{
+    font-style: normal;
+}
+.fuente5{
+    font-style: bold;
+}
+.fuente6{
+    font-style: bolder;
+}
+.fuente7{
+    font-style: small;
+}
+.fuente8{
+    font-variant: small-caps;
+}
+.fuente9{
+    font-size: 25px;
+}
+.fuente10{
+    font-variant: normal;
+}
+@font-face {
+    font-family: "PacificoRegular";
+    src: url("/fonts/Pacifico-Regular.ttf");
+}
+@font-face {
+    font-family: "LobsterRegular";
+    src: url("/fonts/Lobster-Regular.ttf");
+}
+@font-face {
+    font-family: "Batman";
+    src: url("/fonts/BATMAN.ttf");
+}
+@font-face {
+    font-family: "Spider-Man";
+    src: url("/fonts/The\ Amazing\ Spider-Man.ttf");
+}
+.fuente11{
+    font-family: "PacificoRegular";
+}
+.fuente12{
+    font-family: "LobsterRegular";
+}
+.fuente13{
+    font-family: "Batman";
+}
+.fuente14{
+    font-family: "Spider-Man";
+}

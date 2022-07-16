@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajando Formularios</title>
+</head>
+<body>
+    <h1>Reservas De ADA SPA</h1>
+    <form action="pagina13.html" method="get">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="txtNom">Nombres</label><input type="text" name="txtNom" id="txtNom" placeholder="Ingrese sus Nombres"><br>
+            <label for="txtApe">Apellidos</label><input type="text" name="txtApe" id="txtApe" placeholder="Ingrese sus Apellidos"><br>
+            <label for="txtFec">Fecha de Reserva</label><input type="date" name="txtFec" id="txtFec"><br>
+            <label for="txtDir">Correo</label><input type="text" name="txtDir" id="txtDir" placeholder="Ingrese su Correo"><br>
+            </select><br>
+            <label for="cboDistrito">Producto</label>
+            <select name="cboDistrito" id="cboDistrito">
+                <option value="0">Seleccione un Producto</option>
+                <option value="1">Crema Para Cuerpo</option>
+                <option value="2">Aceite</option>
+                <option value="3">Crema Reparador de Uña De Gato</option>
+                <option value="4">Diadema Spa Elastica </option>
+                <option value="5">Cepillo De La Exfoliacion</option>
+                <input type="submit" name="btnRegistrar" id="btnRegistrar" value="Reservar">
+            <label for="cboDistrito">Servicio</label>
+            <select name="cboDistrito" id="cboDistrito">
+                <option value="0">Seleccione un Tipo De Servicio</option>
+                <option value="1">Faciales</option>
+                <option value="2">Masajes</option>
+                <option value="3">Tratamientos Alternativos</option>
+                <option value="4">Corte de Pelo </option>
+                <option value="5">Depilacion</option>
+                <input type="submit" name="btnRegistrar" id="btnRegistrar" value="Reservar">
+                <label>Turno</label><input type="radio" name="Turno" id="rbM"><label for="rbM">Mañana</label><input type="radio" name="Turno" id="rbM"><label for="rbT">Tarde</label> <input type="radio" name="Turno" id="rbN"><label for="rbN">Noche</label><br>
+    </form>
+</body>
+</html>
